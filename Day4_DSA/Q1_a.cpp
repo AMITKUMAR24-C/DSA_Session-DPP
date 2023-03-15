@@ -30,7 +30,7 @@ int palpart(string str, int i, int j)
     }
     return ans + 1;
 }
-/* Using DP - Memoization*/
+/* Using DP -  Memoization*/
 int palpartdp(string str, int i, int j)
 {
     int n = str.size();
