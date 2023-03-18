@@ -1,3 +1,6 @@
+
+
+/* Right View of Binary Tree*/
 void righttree(TreeNode* root, vector<int>& ans, int level)
     {
         if(root==NULL)
@@ -11,5 +14,4 @@ void righttree(TreeNode* root, vector<int>& ans, int level)
         vector<int> ans;
         righttree(root,ans,0);
         return ans;
-
     }
